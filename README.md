@@ -1,53 +1,126 @@
 # CLI Hangman Game (Java)
 
-A classic Hangman game designed to be played in the command line interface (CLI).
-It features file handling to load words dynamically and displays ASCII art for the game state.
+[![Java](https://img.shields.io/badge/Java-15%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![CLI](https://img.shields.io/badge/CLI-Game-black.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://en.wikipedia.org/wiki/Command-line_interface)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-## Features
+🔗 **[Visit Project Repository / Proje Deposu](https://github.com/ietkose/hangman-game)**
 
-* **Dynamic Word Loading:** Reads the word list from an external `assets/words.txt` file.
-* **ASCII Art:** Visual representation of the hangman using Java Text Blocks.
-* **Input Handling:** Validates user input and tracks guessed letters.
-* **Win/Loss Conditions:** Logic to determine the game outcome based on 6 allowed mistakes.
+꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑
 
-## Requirements
+## 🇬🇧 ENGLISH
 
-* **Java 15 or higher** (Required due to Text Blocks and Switch Expressions).
+A classic command-line **Hangman Game** built with modern Java features. It dynamically loads word lists from external text files and renders detailed ASCII art for game states using Java Text Blocks.
 
-## Installation & Usage
+---
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/ietkose/hangman-game.git
-    ```
+### ⛄ Key Features
+* **Dynamic Word Loading**: Reads random words from an external `assets/words.txt` file at startup.
+* **ASCII Art Visuals**: Renders progressive hangman graphics using Java 15+ multi-line Text Blocks.
+* **Input Validation & State Tracking**: Prevents duplicate guesses, validates single-character inputs, and tracks remaining lives.
+* **Easily Customizable**: Simple external word list extension without recompiling code.
 
-2.  **Verify File Structure:**
-    Ensure the `assets` folder is in the same directory where you run the command.
-    ```
-    /Project-Folder
-    ├── App.java
-    └── assets/
-        └── words.txt
-    ```
+---
 
-3.  **Compile the Code:**
-    ```bash
-    javac App.java
-    ```
+### ⛄ Tech Stack & Concepts
+* **Language:** Java 15+
+* **Modern Features:** Java Text Blocks (`"""..."""`), Switch Expressions
+* **Core APIs:** `java.io`, `java.nio.file`, `java.util.Scanner`, `java.util.List`
 
-4.  **Run the Game:**
-    ```bash
-    java App
-    ```
+---
 
-## Customization
+### ⛄ Installation & Setup
 
-You can add your own words to the game!
-* Open `assets/words.txt`.
-* Add new words line by line.
-* Restart the game.
+#### Prerequisites
+* **Java Development Kit (JDK 15+)** installed and configured.
 
-## Tech Stack
+#### 1. Clone the Repository
+```bash
+git clone [https://github.com/ietkose/hangman-game.git](https://github.com/ietkose/hangman-game.git)
+cd hangman-game
+```
 
-* **Language:** Java
-* **Libraries:** `java.io`, `java.nio`, `java.util`
+#### 2. Verify File Structure
+Ensure the assets/ folder is positioned relative to your execution path:
+
+```text
+Plaintext
+hangman-game/
+├── App.java
+└── assets/
+    └── words.txt
+```
+
+#### 3. Compile & Run
+```bash
+# Compile
+javac App.java
+```
+```bash
+# Run
+java App
+```
+
+#### Customization
+You can easily extend the word dictionary:
+Open assets/words.txt.
+Add custom words (one per line).
+Save and restart the game!
+
+### ⛄ License
+This project is licensed under the MIT License.
+
+꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑
+
+## 🇹🇷 TÜRKÇE
+Modern Java özellikleri kullanılarak geliştirilmiş klasik bir komut satırı Adam Asmaca Oyunu. Kelimeleri harici bir metin dosyasından dinamik olarak yükler ve Java Text Blocks özelliğini kullanarak oyun durumunu gösteren ASCII grafikler çizer.
+
+### ⛄ Öne Çıkan Özellikler
+* **Dinamik Kelime Yükleme:** Başlangıçta assets/words.txt dosyasından rastgele kelimeler okur.
+* **ASCII Görsel Çizimi:** Java 15+ çok satırlı metin blokları (Text Blocks) ile adım adım adam asmaca çizimi.
+* **Girdi Doğrulama ve Takip:** Tekrar eden tahminleri engeller, geçerli harf girdilerini kontrol eder ve kalan hakları takip eder.
+* **Kolay Özelleştirilebilir:** Kodu yeniden derlemeye gerek kalmadan kelime listesi ekleme imkanı.
+
+### ⛄ Kullanılan Teknolojiler ve Kavramlar
+* **Dil:** Java 15+
+* **Modern Özellikler:** Java Text Blocks, Switch Expressions
+* **Çekirdek Paketler:** java.io, java.nio.file, java.util.Scanner
+
+### ⛄ Kurulum ve Çalıştırma
+#### Gereksinimler
+Sisteminizde JDK 15 veya üzeri sürümün yüklü olması gerekir.
+
+#### 1. Depoyu Klonlayın
+```bash
+git clone [https://github.com/ietkose/hangman-game.git](https://github.com/ietkose/hangman-game.git)
+cd hangman-game
+```
+
+#### 2. Dosya Yapısını Doğrulayın
+`assets/` klasörünün, uygulama çalıştırma yolunuza göre doğru konumda olduğundan emin olun:
+```text
+Plaintext
+hangman-game/
+├── App.java
+└── assets/
+    └── words.txt
+```
+
+#### 3. Kodu Derleyin ve Çalıştırın
+```bash
+# Derleme
+javac App.java
+```
+```bash
+# Çalıştırma
+java App
+```
+
+#### Özelleştirme
+Kelime sayısını arttırabilirsiniz:
+assets/words.txt dosyasını açın.
+Kendi kelimelerinizi ekleyin (her satıra bir kelime).
+Kaydedin ve oyunu tekrar başlatın!
+
+### ⛄ Lisans
+Bu proje MIT lisansı altında lisanslanmıştır.
