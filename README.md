@@ -1,4 +1,4 @@
-# CLI Hangman Game (Java)
+# Hangman Game
 
 [![Java](https://img.shields.io/badge/Java-15%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![CLI](https://img.shields.io/badge/CLI-Game-black.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://en.wikipedia.org/wiki/Command-line_interface)
@@ -124,3 +124,8 @@ Kaydedin ve oyunu tekrar başlatın!
 
 ### ⛄ Lisans
 Bu proje MIT lisansı altında lisanslanmıştır.
+
+꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑꒷꒦︶꒷꒦︶ ๋⭑
+
+## Sample Image / Örnek Görsel
+<img width="1461" height="658" alt="hangman_game" src="https://github.com/user-attachments/assets/32cfa65e-7665-4ef4-97e9-7888f6202691" />
